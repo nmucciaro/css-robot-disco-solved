@@ -31,5 +31,5 @@ Acceptance criteria:
 - [x] Animation with changing dimensions is shown.
 - [x] Animation with movement around some position is shown.
 - [x] Animation on object hover event is shown.
-- [ ] Animation with color changing is shown.
-- [ ] Every facial feature item except for the face shape is animated.
+- [x] Animation with color changing is shown.
+- [x] Every facial feature item except for the face shape is animated.
