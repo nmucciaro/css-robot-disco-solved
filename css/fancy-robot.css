@@ -1,0 +1,418 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("/images/robots.png");
+}
+.container {
+  width: 50%;
+  height: 250%;
+  border: 5px solid black;
+  background-color: white;
+  margin: 10% auto;
+  background-image: linear-gradient(white, blue);
+}
+.head {
+  width: 40rem;
+  height: 25rem;
+  border: 5px solid blue;
+  margin: 8.5% auto;
+  border-radius: 25px;
+  background-color: lightblue;
+  opacity: 50%;
+}
+.leye {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 10px;
+  position: absolute;
+  top: 400px;
+  left: 750px;
+}
+.ldot {
+  width: 25px;
+  height: 25px;
+  background-color: lightskyblue;
+  border-radius: 50px;
+  position: absolute;
+  top: 412px;
+  left: 762px;
+  animation-name: shrink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes shrink {
+  50% {
+    transform: scale(3.5, 3.5);
+  }
+}
+.reye {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 10px;
+  position: absolute;
+  top: 400px;
+  left: 1100px;
+}
+.rdot {
+  width: 25px;
+  height: 25px;
+  background-color: lightskyblue;
+  border-radius: 50px;
+  position: absolute;
+  top: 412px;
+  left: 1112px;
+}
+
+
+
+.diamond {
+  background-color: #ff00ff;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-bottom-color: #ff00ff;
+  position: relative;
+  top: -285px;
+  left: 465px;
+  transform: rotate(45deg);
+}
+.diamond:hover {
+  transform: rotate(80deg);
+  transition-delay: 1s;
+}
+.mouth {
+  width: 200px;
+  height: 65px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 580px;
+  left: 850px;
+}
+.t1 {
+  width: 15px;
+  height: 25px;
+  background-color: blue;
+  border-radius: 10px;
+  position: absolute;
+  top: 590px;
+  left: 875px;
+}
+.t1a {
+  width: 15px;
+  height: 25px;
+  background-color: blue;
+  border-radius: 10px;
+  position: absolute;
+  top: 590px;
+  left: 893px;
+}
+.t2 {
+  width: 15px;
+  height: 25px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 615px;
+  left: 875px;
+}
+.t3 {
+  width: 15px;
+  height: 25px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 615px;
+  left: 892px;
+}
+.t4 {
+  width: 15px;
+  height: 25px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 615px;
+  left: 910px;
+}
+.t5 {
+  width: 15px;
+  height: 25px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 615px;
+  left: 928px;
+}
+.t6 {
+  width: 15px;
+  height: 25px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 615px;
+  left: 945px;
+}
+.t7 {
+  width: 15px;
+  height: 25px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 615px;
+  left: 962px;
+}
+.t8 {
+  width: 15px;
+  height: 25px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 615px;
+  left: 979px;
+}
+.t9 {
+  width: 15px;
+  height: 25px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 615px;
+  left: 996px;
+}
+.t10 {
+  width: 15px;
+  height: 25px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 615px;
+  left: 1013px;
+}
+.t11 {
+  width: 15px;
+  height: 25px;
+  background-color: blue;
+  border-radius: 10px;
+  position: absolute;
+  top: 590px;
+  left: 1013px;
+}
+.t11a {
+  width: 15px;
+  height: 25px;
+  background-color: blue;
+  border-radius: 10px;
+  position: absolute;
+  top: 590px;
+  left: 996px;
+}
+.linear {
+  width: 25px;
+  height: 250px;
+  background-color: red;
+  border-radius: 10px;
+  position: absolute;
+  top: 350px;
+  left: 628px;
+}
+.rinear {
+  width: 25px;
+  height: 250px;
+  background-color: red;
+  border-radius: 10px;
+  position: absolute;
+  top: 350px;
+  left: 1253px;
+}
+.loutear {
+  width: 50px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 10px;
+  position: absolute;
+  top: 420px;
+  left: 504px;
+  animation-name: slideLeft;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes slideLeft {
+  from {
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.routear {
+  width: 50px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 10px;
+  position: absolute;
+  top: 420px;
+  left: 1253px;
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+.leyebrow {
+  width: 10px;
+  height: 80px;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  top: 328px;
+  left: 760px;
+  rotate: 55deg;
+}
+.reyebrow {
+  width: 10px;
+  height: 80px;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  top: 326px;
+  left: 1125px;
+  rotate: 120deg;
+}
+.leftant {
+  width: 5px;
+  height: 120px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 195px;
+  left: 760px;
+  rotate: 120deg;
+}
+
+.rightant {
+  width: 5px;
+  height: 120px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 191px;
+  left: 1134px;
+  rotate: 55deg;
+}
+.lball {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50px;
+  position: absolute;
+  top: 213px;
+  left: 700px;
+}
+.rball {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50px;
+  position: absolute;
+  top: 210px;
+  left: 1165px;
+}
+.hair1 {
+  width: 5px;
+  height: 60px;
+  background-color: orange;
+  border-radius: 10px;
+  position: absolute;
+  top: 238px;
+  left: 815px;
+  rotate: 120deg;
+}
+.hair2 {
+  width: 5px;
+  height: 60px;
+  background-color: lightblue;
+  border-radius: 10px;
+  position: absolute;
+  top: 238px;
+  left: 850px;
+  rotate: 120deg;
+}
+.hair3 {
+  width: 5px;
+  height: 60px;
+  background-color: tomato;
+  border-radius: 10px;
+  position: absolute;
+  top: 226px;
+  left: 900px;
+  rotate: 0deg;
+}
+.hair4 {
+  width: 5px;
+  height: 60px;
+  background-color: lightslategrey;
+  border-radius: 10px;
+  position: absolute;
+  top: 226px;
+  left: 930px;
+  rotate: 0deg;
+}
+.hair5 {
+  width: 5px;
+  height: 85px;
+  background-color: pink;
+  border-radius: 10px;
+  position: absolute;
+  top: 203px;
+  left: 960px;
+  rotate: 0deg;
+}
+.hair6 {
+  width: 5px;
+  height: 60px;
+  background-color: greenyellow;
+  border-radius: 10px;
+  position: absolute;
+  top: 226px;
+  left: 990px;
+  rotate: 1deg;
+}
+.hair7 {
+  width: 5px;
+  height: 60px;
+  background-color: lightcoral;
+  border-radius: 10px;
+  position: absolute;
+  top: 226px;
+  left: 1020px;
+  rotate: 1deg;
+}
+.hair8 {
+  width: 5px;
+  height: 60px;
+  background-color: lightblue;
+  border-radius: 10px;
+  position: absolute;
+  top: 236px;
+  left: 1060px;
+  rotate: 50deg;
+}
+
+.hair9 {
+  width: 5px;
+  height: 60px;
+  background-color: orange;
+  border-radius: 10px;
+  position: absolute;
+  top: 236px;
+  left: 1084px;
+  rotate: 50deg;
+}
